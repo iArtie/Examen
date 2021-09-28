@@ -14,6 +14,7 @@ namespace ExamenParcial
     {
         public Form1()
         {
+            //ss
             InitializeComponent();
         }
     }
