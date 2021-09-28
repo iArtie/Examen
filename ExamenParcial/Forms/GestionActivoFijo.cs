@@ -8,14 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ExamenParcial
+namespace ExamenParcial.Forms
 {
-    public partial class Form1 : Form
+    public partial class GestionActivoFijo : Form
     {
-        public Form1()
+        public GestionActivoFijo()
         {
-            //ss
             InitializeComponent();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            FmdActivoFijo fmd = new FmdActivoFijo();
+            fmd.Show();
         }
     }
 }
